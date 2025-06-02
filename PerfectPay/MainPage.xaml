@@ -72,7 +72,7 @@
                 </VerticalStackLayout>
             </Grid>
         </Frame>
-
+        
         <Grid Grid.Row="1"
               Margin="0,15,0,0">
             <Grid.ColumnDefinitions>
@@ -94,6 +94,7 @@
                    Keyboard="Numeric"
                    Text="0.0"
                    TextColor="{StaticResource LightFont}"
+                   Completed="txtBill_Completed"
                    VerticalOptions="Center"/>
             <Label Grid.Row="1"
                    Text="Choose your tip"
@@ -149,7 +150,7 @@
                         WidthRequest="70"/>
             </HorizontalStackLayout>
                 
-        </Grid>
+        </Grid  >
     </Grid>
 
 </ContentPage>
